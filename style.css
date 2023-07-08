@@ -4,8 +4,11 @@ font-family: 'Geologica', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
-}
 
+}
+body{
+    
+}
 header{
     
     background-color: #FFF8F3;
@@ -13,6 +16,7 @@ header{
     background-repeat: no-repeat;
     background-position:bottom right, top left;
     height: 780px;
+    width: 100% !important;
    
      
     
@@ -97,7 +101,7 @@ span{
     align-items: center;
     margin-left: 170px;
     padding-top: 130px;
-    
+   
     
     
 }
@@ -212,7 +216,7 @@ footer{
     padding-top:30px ;
     padding-left: 65px;
     padding-bottom: 60px;
-   
+   width: 100%;
 }
 .footer-firsthalf{
    text-align: left;
