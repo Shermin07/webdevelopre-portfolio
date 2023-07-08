@@ -9,11 +9,19 @@ font-family: 'Poppins', sans-serif;
 header{
     
     background-color: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position:bottom right, top left;
+    
+   
+     
+    
     
 }
 .navber{
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
     
    
     
@@ -88,15 +96,15 @@ span{
     justify-content: space-around;
     align-items: center;
     margin-left: 170px;
-    background-image: url("images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    padding-top: 130px;
+    
     
     
 }
 .banner-image{
     padding-left: 80px;
-    height: 522px;
+    height: 546px;
+   
     
 }
 .name{
