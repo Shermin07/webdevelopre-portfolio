@@ -26,6 +26,10 @@ header{
 .nav-link{
     font-size: 20px;
 }
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
 nav>ul{
     display: flex;
     justify-content: space-between;
@@ -139,6 +143,7 @@ span{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding-top: 20px;
+    padding-bottom: 15px;
 }
 hr{
     width: 600px;
@@ -147,6 +152,7 @@ hr{
 }
 .qualifications-container{
    margin: 0 75px;
+   padding-top: 35px;
 }
 .second-download-link{
     text-decoration: none;
