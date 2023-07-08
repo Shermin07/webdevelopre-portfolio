@@ -23,8 +23,14 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 27px;
 }
+.logo-name:hover{
+    color: slateblue;
+}
 .nav-link{
     font-size: 20px;
+}
+.hire-link:hover{
+    background-color: slateblue;
 }
 .nav-link a{
     text-decoration: none;
@@ -59,6 +65,10 @@ span{
     border-radius: 3px;
 
 }
+.download-link:hover{
+    background-color: slateblue;
+    
+}
 .contact-link{
     text-decoration: none;
     border: 1px solid tomato;
@@ -67,6 +77,10 @@ span{
     padding: 10px 14px;
     border-radius: 3px;
 
+}
+.contact-link:hover{
+    background-color: slateblue;  
+    color: aliceblue; 
 }
 .top-banner{
     display: grid;
@@ -88,8 +102,12 @@ span{
 .name{
     font-size: 35px;
 }
+.name:hover{
+    color: slateblue;
+}
 .hero{
     color: tomato;
+    text-decoration: none;
 }
 .intro{
     padding-bottom: 25px;
@@ -169,6 +187,9 @@ hr{
     
     text-align: center;
 }
+.second-download-link:hover{
+    background-color: slateblue;
+}
 .social-media{
     color: tomato;
     margin-right: 10px;
@@ -219,4 +240,8 @@ border: none;
     color: aliceblue;
     padding: 10px 14px;
     border-radius: 3px;
+}
+
+.submit-link:hover{
+    background-color: slateblue;
 }
