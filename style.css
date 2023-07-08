@@ -174,8 +174,9 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     background-color: #FFF8F3;
     margin-top: 60px;
+    padding-top:30px ;
     padding-left: 65px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
    
 }
 .footer-firsthalf{
@@ -190,12 +191,20 @@ footer{
 .info-box{
 height: 35px;
 width: 330px ;
+padding-left: 10px;
+border: none;
 }
 .message-box{
     height: 115px;
     width: 330px ;
     padding-bottom: 60px;
     margin-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 14px;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+
 }
 .submit-link{
     text-decoration: none;
